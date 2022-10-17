@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FirstScript {
+public class AFirstScript {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,6 +17,7 @@ public class FirstScript {
 		
 		//	CREATING OBJECT
 		WebDriver driver = new ChromeDriver();		// Parent p = new Child (parent --- WebDriver; child --- ChromerDriver)
+													// IN THIS STEP, YOU HAVE TO DO TWO IMPORTS LINE : 4,5.
 		
 //		driver.get("https://demoqa.com/automation-practice-form");			// OPENING URL	
 //		
